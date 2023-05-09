@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    /* Red rect */
+    .flag{
+      width: 900px;
+      height: 600px;
+      position: relative;
+      background-color: olivedrab;
+      }
+      .flag > div{
+       width: 100%;
+       height: 300px;
+      background-color: rgba(81, 231, 12, 0.685);
+      position: absolute;
+      top: 150px;
+  
+      }
+
+      .flag > div > div{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        background-color: rgba(67, 58, 189, 0.767);
+        border-radius: 50%;
+        top: 50px;
+        left: 350px; 
+          
+      }
+      p{
+        color: rgba(33, 14, 121, 0.637);
+        font-size: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;    
+      }
+
+      .flag > div > div > p{
+        color: black;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+      
+      
+      
+
+      
+      
+      
+    }
+
+
+   
+                       
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of hope</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
